@@ -1,0 +1,71 @@
+{
+  "main": {
+    "form": {
+      "subipformtitle": "IP & Subnetzmaske",
+      "subformtitle": "Subnetmaske",
+      "ipformtitle": "IP",
+      "subipformhint": "Format: xxx.xxx.xxx.xxx/xx",
+      "subformhint": "Entweder /xx oder xxx.xxx.xxx.xxx",
+      "ipformhint": "Format: xxx.xxx.xxx.xxx",
+      "calcButton": "Berechnen"
+    },
+    "result": {
+      "ddn": "DDN",
+      "pattern": "Muster",
+      "possib": "Anzahl möglicher Addressen",
+      "laddress": "Tiefste Adresse",
+      "haddress": "Höchste Adresse",
+      "broadcast": "Broadcast Adresse",
+      "luaddress": "Tiefste nutzbare Adresse",
+      "huaddress": "Höchste nutzbare Adresse",
+      "title": "Ergebnis"
+    },
+    "errors": {
+      "nvalsub": "Kein vernünftiges Subnetzwerk",
+      "incomp": "Nicht vollständig bitte mindestens 0.0.0.0/0 angeben",
+      "missed": "Du hast das subnetz suffix vergessen (/24...)"
+    }
+  },
+  "history": {
+    "stateactions": {
+      "desc": "State aktionen",
+      "fill": "State füllen",
+      "clear": "State leeren"
+    },
+    "table": {
+      "title": "Bereits genutzte Subnets und Adressen",
+      "colums": {
+        "subnet": "Subnetz",
+        "ip": "IP",
+        "pattern": "Muster",
+        "possib": "Anzahl möglicher Addressen",
+        "laddress": "Tiefste Adresse",
+        "haddress": "Höchste Adresse",
+        "broadcast": "Broadcast Adresse",
+        "luaddress": "Tiefste nutzbare Adresse",
+        "huaddress": "Höchste nutzbare Adresse"
+      }
+    }
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "autoclear": "Automatisches leeren der Eingabefelder deaktivieren",
+    "settingsavehint": "Einstellungen werden während des tippens gespeichert"
+  },
+  "header": {
+    "home": "Home",
+    "history": "Vergangende",
+    "settings": "Einstellungen",
+    "recipes": "Rezepte"
+  },
+  "recipe": {
+    "index": {
+      "title": "Rezepte",
+      "new": "Neues Rezept",
+      "existent": "Vorhandene Rezepte"
+    },
+    "add": {
+      "save": "Speichern"
+    }
+  }
+}

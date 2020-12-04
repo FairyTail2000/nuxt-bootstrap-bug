@@ -1,0 +1,71 @@
+{
+  "main": {
+    "form": {
+      "subipformtitle": "IP & Subnetmask",
+      "subformtitle": "Subnetmask",
+      "ipformtitle": "IP",
+      "subipformhint": "Format: xxx.xxx.xxx.xxx/xx",
+      "subformhint": "Either /xx or xxx.xxx.xxx.xxx",
+      "ipformhint": "Format: xxx.xxx.xxx.xxx",
+      "calcButton": "Calc"
+    },
+    "result": {
+      "ddn": "DDN",
+      "pattern": "Pattern",
+      "possib": "Possible addresses",
+      "laddress": "Lowest address",
+      "haddress": "Highest address",
+      "broadcast": "Broadcast address",
+      "luaddress": "Lowest usable address",
+      "huaddress": "Highest usable address",
+      "title": "Titel"
+    },
+    "errors": {
+      "nvalsub": "Not a valid Subnet",
+      "incomp": "Incomplete please use at least 0.0.0.0/0",
+      "missed": "You missed the Subnet (/24...)"
+    }
+  },
+  "history": {
+    "stateactions": {
+      "desc": "State actions",
+      "fill": "Fill state",
+      "clear": "Clear state"
+    },
+    "table": {
+      "title": "Already used Addresses and Subnets",
+      "colums": {
+        "subnet": "Subnet",
+        "ip": "IP",
+        "pattern": "Mask Pattern",
+        "possib": "Possible Addresses",
+        "laddress": "Lowest address",
+        "haddress": "Highest address",
+        "broadcast": "Broadcast address",
+        "luaddress": "Lowest usable address",
+        "huaddress": "Highest usable address"
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "autoclear": "Disable automatic clear of input fields",
+    "settingsavehint": "Settings are saved as you click"
+  },
+  "header": {
+    "home": "Home",
+    "history": "History",
+    "settings": "Settings",
+    "recipes": "Recipes"
+  },
+  "recipe": {
+    "index": {
+      "title": "Recipes",
+      "new": "New Recipe",
+      "existent": "Existent recipes"
+    },
+    "add": {
+      "save": "Save"
+    }
+  }
+}
